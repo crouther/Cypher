@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/brickmuralpr"
+    tools:context="com.crouther.cypher.modes">
+
+    <TextView
+        android:id="@+id/modes"
+
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+
+        android:padding="20dp"
+        android:layout_marginTop="20dp"
+
+
+        android:text="@string/modes"
+        android:textAlignment="center"
+
+        android:textAllCaps="false"
+        android:textColor="#FFFF7F"
+
+        android:textSize="50sp"
+        android:alpha=".8"
+
+        android:textStyle="bold"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/continuous"
+        android:layout_width="110dp"
+
+        android:layout_height="45dp"
+        android:background="#87deaa"
+
+        android:elevation="5dp"
+        android:onClick="playContinuous"
+        android:padding="10dp"
+
+        android:text="@string/continuous"
+        android:textSize="16sp"
+
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/burst"
+        android:layout_width="110dp"
+
+        android:layout_height="45dp"
+        android:layout_marginTop="20dp"
+
+        android:background="#deaa87"
+        android:elevation="5dp"
+        android:onClick="playBurst"
+        android:padding="10dp"
+
+        android:text="@string/burst"
+        android:textSize="16sp"
+
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/continuous" />
+
+    <Button
+        android:id="@+id/custom"
+        android:layout_width="110dp"
+
+        android:layout_height="45dp"
+        android:layout_marginTop="20dp"
+
+        android:background="#aa87de"
+        android:elevation="5dp"
+        android:onClick="playCustom"
+        android:padding="10dp"
+
+        android:text="@string/custom"
+        app:fontFamily="@font/appfont"
+        android:textSize="16sp"
+
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/burst" />
+
+</android.support.constraint.ConstraintLayout>

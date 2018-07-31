@@ -1,0 +1,53 @@
+<resources>
+
+    <string name="app_name">Cypher</string>
+    <string name="dummy_content"> </string>
+
+    <string name="start">Start</string>
+
+    <string name="about">About</string>
+    <string name="aboutText">
+        Like most great app ideas it started from a college dorm room. Where students were sitting around a set of speakers trying to prove themselves and compete to see who was the best. A test of cunning lyrics, lingusitic knowledge and a subtle yet innate sense of time and cultural humor brought the winner to victory. These were epic rap battles and sometimes the best mic is your phone.
+    </string>
+
+    <string name="title_activity_modes">modes</string>
+    <string name="continuous">Continuous</string>
+    <string name="burst">Burst</string>
+    <string name="custom">Custom</string>
+
+    <string name="option">Option</string>
+    <string name="option_description">Option Description</string>
+    <string name="continuousDescription">A playlist of tracks and starting lines are continuously provided. Users rap in a freestyling fashion with unlimited time.</string>
+    <string name="burstDescription">The user is given 30 seconds to come up with a 2 liner then passes the device. This round robin approach is to keep it tweet size, short and simple.</string>
+    <string name="customDescription">Options such as time, number of lines given and hints are all selectable giving the users greater control to a sandboxed rap battle.</string>
+    <string name="customPremium">This feature is in the development process and will be available with the premium version of the app released at a later date. Thank you for your patiences.</string>
+    <string name="go">Go</string>
+
+    <string name="modes">Modes</string>
+    <string name="logo">logo</string>
+    <string name="rewind">Rewind</string>
+    <string name="button">Button</string>
+
+    <string name="first_card">First Card</string>
+    <string name="second_card">Second Card</string>
+    <string name="third_card">Third Card</string>
+    <string name="fourth_card">Fourth Card</string>
+    <string name="fifth_and_final_card">Fifth and final card</string>
+
+    <string name="splashlogo">splashlogo</string>
+    <string name="line">Written is the first line, Spoken comes next \nKeep the game going, it\'s your time to flex \n\n\nSwipe or Press Play!</string>
+
+    <string name="song_title_album">Song Title - Album</string>
+    <string name="title_activity_game">game</string>
+    <string name="pull_up">"Pull Up - Ranger"</string>
+
+    <string name="record">record</string>
+    <string name="stop">stop</string>
+    <string name="listen">listen</string>
+    <string name="share">share</string>
+    <string name="wave">wave</string>
+    <string name="stop_music">Stop Music</string>
+    <string name="gotplayed_studios">GotPlayed Studios</string>
+    <string name="crouther_github_io">crouther.github.io</string>
+
+</resources>

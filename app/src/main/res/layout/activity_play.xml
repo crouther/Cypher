@@ -1,0 +1,311 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/brickmuralpl"
+    android:id="@+id/playLayout"
+    tools:context="com.crouther.cypher.play">
+
+
+    <TextView
+        android:id="@+id/option"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+
+
+
+        android:text="@string/option"
+        android:textColor="#FFFF7F"
+
+        android:textSize="40sp"
+        android:textStyle="bold"
+
+
+        android:padding="20dp"
+        android:layout_marginTop="20dp"
+
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/verse"
+        android:layout_width="180dp"
+        android:layout_height="wrap_content"
+
+        android:elevation="10dp"
+
+        android:textColor="@android:color/black"
+        android:lineSpacingMultiplier="1.2"
+        android:textSize="18sp"
+
+        android:visibility="visible"
+        app:layout_constraintBottom_toBottomOf="@id/first"
+        app:layout_constraintLeft_toLeftOf="@id/first"
+        app:layout_constraintRight_toRightOf="@id/first"
+        app:layout_constraintTop_toTopOf="@id/first"
+        tools:text="@string/line" />
+
+    <ImageView
+        android:id="@+id/first"
+        android:layout_width="300dp"
+
+        android:layout_height="340dp"
+        android:layout_margin="20dp"
+
+        android:contentDescription="@string/first_card"
+
+        android:elevation="5dp"
+
+        android:src="@drawable/green"
+        app:layout_constraintRight_toRightOf="@id/second"
+        app:layout_constraintTop_toTopOf="@id/second" />
+
+    <TextView
+        android:id="@+id/verse2"
+        android:layout_width="180dp"
+        android:layout_height="wrap_content"
+
+        android:elevation="4.5dp"
+
+        android:textColor="@android:color/black"
+        android:lineSpacingMultiplier="1.2"
+        android:textSize="18sp"
+
+        android:visibility="visible"
+        app:layout_constraintBottom_toBottomOf="@id/second"
+        app:layout_constraintLeft_toLeftOf="@id/second"
+        app:layout_constraintRight_toRightOf="@id/second"
+        app:layout_constraintTop_toTopOf="@id/second"
+        tools:text="@string/line" />
+
+
+    <ImageView
+        android:id="@+id/second"
+        android:layout_width="300dp"
+
+        android:layout_height="340dp"
+        android:layout_margin="20dp"
+
+        android:contentDescription="@string/second_card"
+
+        android:elevation="4dp"
+
+        android:src="@drawable/yellow"
+        app:layout_constraintRight_toRightOf="@id/third"
+        app:layout_constraintTop_toTopOf="@id/third" />
+
+    <TextView
+        android:id="@+id/verse3"
+        android:layout_width="180dp"
+        android:layout_height="wrap_content"
+
+        android:elevation="3.5dp"
+
+        android:textColor="@android:color/black"
+        android:lineSpacingMultiplier="1.2"
+        android:textSize="18sp"
+
+        android:visibility="visible"
+        app:layout_constraintBottom_toBottomOf="@id/third"
+        app:layout_constraintLeft_toLeftOf="@id/third"
+        app:layout_constraintRight_toRightOf="@id/third"
+        app:layout_constraintTop_toTopOf="@id/third"
+        tools:text="@string/line" />
+
+    <ImageView
+        android:id="@+id/third"
+        android:layout_width="300dp"
+        android:layout_height="340dp"
+
+        android:contentDescription="@string/third_card"
+        android:elevation="3dp"
+
+        android:src="@drawable/teal"
+
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/verse4"
+        android:layout_width="180dp"
+        android:layout_height="wrap_content"
+
+        android:elevation="2.5dp"
+
+        android:textColor="@android:color/black"
+        android:lineSpacingMultiplier="1.2"
+        android:textSize="18sp"
+
+        android:visibility="visible"
+        app:layout_constraintBottom_toBottomOf="@id/fourth"
+        app:layout_constraintLeft_toLeftOf="@id/fourth"
+        app:layout_constraintRight_toRightOf="@id/fourth"
+        app:layout_constraintTop_toTopOf="@id/fourth"
+        tools:text="@string/line" />
+
+    <ImageView
+        android:id="@+id/fourth"
+        android:layout_width="300dp"
+        android:layout_height="340dp"
+
+        android:layout_margin="20dp"
+        android:contentDescription="@string/fourth_card"
+
+        android:elevation="2dp"
+        android:src="@drawable/red"
+
+        app:layout_constraintBottom_toBottomOf="@id/third"
+        app:layout_constraintLeft_toLeftOf="@id/third" />
+
+    <TextView
+        android:id="@+id/verse5"
+        android:layout_width="180dp"
+        android:layout_height="wrap_content"
+
+        android:elevation="1.5dp"
+
+        android:textColor="@android:color/black"
+        android:lineSpacingMultiplier="1.2"
+        android:textSize="18sp"
+
+        android:visibility="visible"
+        app:layout_constraintBottom_toBottomOf="@id/fifth"
+        app:layout_constraintLeft_toLeftOf="@id/fifth"
+        app:layout_constraintRight_toRightOf="@id/fifth"
+        app:layout_constraintTop_toTopOf="@id/fifth"
+        tools:text="@string/line" />
+
+    <ImageView
+        android:id="@+id/fifth"
+        android:layout_width="300dp"
+
+        android:layout_height="340dp"
+        android:layout_margin="20dp"
+
+        android:contentDescription="@string/fifth_and_final_card"
+
+        android:src="@drawable/orange"
+        app:layout_constraintBottom_toBottomOf="@id/fourth"
+        app:layout_constraintLeft_toLeftOf="@id/fourth" />
+
+    <ImageView
+        android:id="@+id/record"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:padding="10dp"
+        android:elevation="6dp"
+
+        android:layout_margin="20dp"
+        android:contentDescription="@string/record"
+
+        android:src="@drawable/record"
+        android:background="@drawable/circle"
+
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent" />
+
+    <ImageView
+        android:id="@+id/stop"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:padding="10dp"
+        android:elevation="5dp"
+
+        android:layout_margin="20dp"
+        android:contentDescription="@string/stop"
+
+        android:src="@drawable/stop"
+        android:background="@drawable/circle"
+
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent" />
+
+    <ImageView
+        android:id="@+id/listen"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:padding="10dp"
+        android:elevation="4dp"
+
+        android:layout_margin="20dp"
+        android:contentDescription="@string/listen"
+
+        android:src="@drawable/play"
+        android:background="@drawable/circle"
+
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent" />
+
+    <ImageView
+        android:id="@+id/newRecording"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:padding="10dp"
+        android:elevation="3dp"
+
+        android:layout_margin="20dp"
+        android:contentDescription="@string/wave"
+
+        android:src="@drawable/wave"
+        android:background="@drawable/circle"
+
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent" />
+
+    <ImageView
+        android:id="@+id/start"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:padding="5dp"
+        android:elevation="5dp"
+
+        android:layout_margin="20dp"
+        android:contentDescription="@string/start"
+
+        android:src="@drawable/play"
+        android:background="@drawable/circle"
+
+
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintRight_toRightOf="parent" />
+
+    <ImageView
+        android:id="@+id/stopMusic"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:padding="5dp"
+        android:elevation="4dp"
+
+        android:layout_margin="20dp"
+        android:contentDescription="@string/stop_music"
+
+        android:src="@drawable/stop"
+        android:background="@drawable/circle"
+
+
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintRight_toRightOf="parent" />
+
+    <TextView
+        android:id="@+id/songInfo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="20dp"
+        android:padding="10dp"
+
+        android:text="@string/song_title_album"
+        android:textColor="#FFFF7F"
+        android:textSize="20dp"
+
+
+        android:visibility="visible"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"/>
+
+</android.support.constraint.ConstraintLayout>
